@@ -6,7 +6,7 @@ library(stargazer)
 
 
 getwd()
-setwd("/Users/quazi/Desktop/SPRING_2022/UGA Talk")
+setwd("...")
 vmddata<-read.csv("VMDdata_short.csv",header=T)
 attach(vmddata)
 nt<-nrow(vmddata)
